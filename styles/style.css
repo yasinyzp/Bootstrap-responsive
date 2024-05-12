@@ -1,0 +1,130 @@
+@font-face {
+    font-family: PoppinsRegular;
+    src: url("/assets/fonts/Poppins-Regular.ttf");
+}
+
+@font-face {
+    font-family: PoppinsBold;
+    src: url("/assets/fonts/Poppins-Bold.ttf");
+}
+
+@font-face {
+    font-family: RubikBold;
+    src: url("/assets/fonts/Rubik-Bold.ttf");
+}
+
+:root {
+    --violet: #3b2a9f;
+    --orange: #fa8305;
+    --purpleGradient: #5141aa;
+    --box-bg: #1C140F;
+    --bright: #ffffff;
+}
+
+.bg-violet {
+    background-color: var(--violet);
+}
+
+.bg-orange {
+    background-color: var(--orange);
+}
+
+.bg-purpleGradient {
+    background-color: var(--purpleGradient);
+}
+
+.bg-box-bg {
+    background-color: var(--box-bg);
+}
+
+.bg-bright {
+    background-color: var(--bright);
+}
+
+.f-reg {
+    font-family: PoppinsRegular;
+}
+
+.f-bold {
+    font-family: PoppinsBold;
+}
+
+.f-rubik {
+    font-family: RubikBold;
+}
+
+.pic-Main {
+    position: relative;
+    left: 60px;
+    width: 450px;
+}
+
+.pic-MiniMain1 {
+    position: absolute;
+    top: 80px;
+    left: 320px;
+    width: 70px;
+}
+
+.pic-MiniMain2 {
+    position: absolute;
+    top: 100px;
+    left: 80px;
+    width: 100px;
+}
+
+.pic-MiniMain3 {
+    position: absolute;
+    top: 180px;
+    width: 90px;
+}
+
+.image_Cards {
+    width: 220px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.search_bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 18px;
+    border-radius: 15px;
+    gap: 20px;
+}
+  
+.image_round {
+    border-radius: 5%;
+}
+
+.card-box {
+    width: 251px;
+    height: 277px;
+    border-radius: 15px;
+}
+
+.card-box-img {
+    object-fit: cover;
+    object-position: center;
+}
+  
+.card_effect {
+    transition: 1s;
+}
+  
+.card_effect:hover {
+    opacity: 50%;
+    scale: 110%;
+}
+  
+.object_pop {
+    transition: 0.5s;
+}
+  
+.object_pop:hover {
+    scale: 110%;
+}
